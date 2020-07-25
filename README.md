@@ -1,11 +1,77 @@
-/ES/ Esto es una modificacion del esx_duty origial. 
+# esx_duty-full
 
-[https://github.com/qalle-fivem/esx_duty]. 
 
-El cual contaba solo con policia y medicos. Lo que hice fue traducir todo al español y agregar los trabajos de Mecanicos y Taxistas
+/ES/
+---------------
+[REQUIRIMIENTOS]
+  
+* ESX Trabajos (Con tener uno ya funciona)
+  * esx_policejob => https://github.com/ESX-Org/esx_policejob
+  * esx_ambulancejob => https://github.com/ESX-Org/esx_ambulancejob
+  * esx_mechanicjob => https://github.com/esx-framework/esx_mechanicjob
+  * esx_taxijob => https://github.com/esx-framework/esx_taxijob
+  [OPCIONAL]* pNotify => https://github.com/Nick78111/pNotify
+  
+[INSTALACION]
 
-/EN/ This is a modification of the original esx_duty 
+/LocalHost/
 
-[https://github.com/qalle-fivem/esx_duty]. 
+1) Abrir tu carpeta de servidor
 
-That allowed them to leave the service, but it only had police and doctors. What I did was translate everything into Spanish and add the work of Mechanics and Taxi Drivers
+2) Importar esx_duty a tu carpeta de resourses
+
+3) Importar "/esx_duty/localization/ es_esx_duty.sql" a tu base de datos
+
+4) Agregar esta linea a tu server.cfg
+``start esx_duty``
+
+/ZapHosting/
+
+1)Abrir tu FTP, entrar a la carpeta del servidor
+
+2)Agregar la carpeta esx_duty en tu carpeta de resourses
+
+3) Agregar esta linea al server.cfg "start esx_duty"
+
+4) Ir al cfg de ZapHosting y agregar la misma linea
+
+5) Importar "/esx_duty/localization/ es_esx_duty.sql" a tu base de datos
+----------------
+/EN/
+---------------
+[REQUIREMENTS]
+
+* ESX Jobs (Whit Having one already works)
+
+  * esx_policejob => https://github.com/ESX-Org/esx_policejob
+  * esx_ambulancejob => https://github.com/ESX-Org/esx_ambulancejob
+  * esx_mechanicjob => https://github.com/esx-framework/esx_mechanicjob
+  * esx_taxijob => https://github.com/esx-framework/esx_taxijob
+  [OPTIONAL]* pNotify => https://github.com/Nick78111/pNotify
+
+[INSTALATION]
+
+/LocalHost/
+
+1) Open your server folder
+
+2) Add esx_duty folder in your resourses folder
+
+3)Import "/esx_duty/localization/ en_esx_duty.sql" to your database
+
+4) Add this line to your server.cfg
+`` start esx_duty``
+
+/ZapHosting/
+
+1)Open yout FTP, enter the server folder
+
+2) Add esx_duty folder in your resourses folder
+
+3)Import "/esx_duty/localization/ en_esx_duty.sql" to your database
+
+4) Add this line to your server.cfg `` start esx_duty``
+
+5) Goto zaphosting cfg and add start esx_duty
+
+##Carsman##
