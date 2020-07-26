@@ -1,6 +1,6 @@
 # esx_duty-full
 
-
+Esto es un scrip que permite salir de servicio a los trabajos whitelist
 /ES/
 ---------------
 [REQUIRIMIENTOS]
@@ -39,6 +39,8 @@
 ----------------
 /EN/
 ---------------
+this scrip allows you to leave the service for work whitelist
+
 [REQUIREMENTS]
 
 * ESX Jobs (Whit Having one already works)
